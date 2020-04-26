@@ -1,4 +1,4 @@
-
+#coding =utf-8
 from  selenium import webdriver
 import time
 
@@ -36,7 +36,7 @@ def login_test():     #登录测试
         print("登录成功")
 
 
-def  test_findLB:
+
 
 
 

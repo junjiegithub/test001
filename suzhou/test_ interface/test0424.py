@@ -20,10 +20,39 @@
     （unittest,pytest）
 8.生成测试报告并分析结果
     (htmltextrunner,allure)
+
+二。接口清单
+登录接口
+    1。1请求登录接口
+        请求
+            1。请求url：http://ttapi.research.itcast.cn/app/v1_0/authorizations
+            2。请求方式：POST
+            3。请求参数：Headers={"Content-Type":"application/json"}
+            4。请求报文：{"mobile":"18453288056","code":"888888"}
+        响应
+            1。状态码：201
+            2。响应数据
+                {"message":"xxx"}
+    1。2获取短信验证码
+        1。请求url：http://ttapi.research.itcast.cn/app/v1_0/sms/codes/:mobile
+            (mobile:手机号)
+        2。状态码：200
+        3。请求方法：GET
+
+    提示：1。验证码发送成功后，在手机中查找
+            2。每个手机号码1分钟之内只能接收一次
+获取用户频道列表
+收藏文章
+取消文章
+
+2。项目接口分析
+分析接口文档
+
+3。挑选需要做接口测试的功能
+
 '''
 
 
-print(123)
 
 
 

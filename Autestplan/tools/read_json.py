@@ -43,13 +43,37 @@ if __name__ == "__main__":
     # print(arrs)
 
         #获取用户频道列表，调试
-        data=ReadJson("channels.json").read_json()
-        arrs=[]
-        arrs.append((data.get("url"),
-                    data.get("headers"),
-                    data.get("expect_result"),
-                    data.get("status_code")))
-        print(arrs)
+        # data=ReadJson("channels.json").read_json()
+        # arrs=[]
+        # arrs.append((data.get("url"),
+        #             data.get("headers"),
+        #             data.get("expect_result"),
+        #             data.get("status_code")))
+        # print(arrs)
+
+        #获取收藏文章 调试
+    # data = ReadJson("article_add.json").read_json()
+    # #新建空列表，添加读取json数据
+    # arrs = []
+    # arrs.append((data.get("url"),
+    #              data.get("headers"),
+    #              data.get("data"),
+    #              data.get("expect_result"),
+    #              data.get("status_code")))
+    # print(arrs)
+
+    #获取取消收藏文章 调试
+    data = ReadJson("article_cancel.json").read_json()
+    #新建空列表，添加读取json数据
+    arrs = []
+    arrs.append((data.get("url"),
+                 data.get("headers"),
+                 data.get("status_code")))
+    print(arrs)
+
+
+
+
 """
     问题：
         1。未经过封装无法在别的模块调用。

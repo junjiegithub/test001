@@ -1,0 +1,7 @@
+{
+  "url": "http://ttapi.research.itcast.cn/app/v1_0/article/collections/:target\n",
+  "headers": {"Content-Type":"application/x-www-form-urlencoded","Authorization":"Bearer token信息"},
+  "data": {"target": 1},
+  "expect_result": "OK",
+  "staus_code": 201
+}

@@ -22,3 +22,5 @@ elif age>=18  and age<=60:
 
 else:
     print(f"您的年龄是{age},属于退休年龄")
+
+

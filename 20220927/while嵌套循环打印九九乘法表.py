@@ -6,11 +6,21 @@
 一行表达式的个数与行号数相等
 """
 
-j=1
-while j<=9:
-    i=1
-    while i<=j:
-        print(f'{i}*{j}={i*j}',end='\t')
-        i=i+1
-    j+=1
+# j=1
+# while j<=9:
+#     i=1
+#     while i<=j:
+#         print(f'{i}*{j}={i*j}',end='\t')
+#         i=i+1
+#     j+=1
+#     print()
+
+
+a=1
+while a<=9:
+    b=1
+    while b<=a:
+        print(f'{a}*{b}={a*b}',end='\t')
+        b=b+1
+    a+=1
     print()
